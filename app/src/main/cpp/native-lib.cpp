@@ -19,7 +19,7 @@ JNIEXPORT jstring JNICALL
 Java_orbslam_iceberg_club_android_1orbslam_MainActivity_stringFromJNI(JNIEnv* env, jobject /* this */) {
 
 Mat test ;
-Mat test2 ;
+
 
 std::string hello = "Hello from C++";
 return env->NewStringUTF(hello.c_str());

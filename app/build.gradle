@@ -14,7 +14,6 @@ android {
             cmake {
                 cppFlags "-std=c++11","-frtti", "-fexceptions"
 
-
             }
         }
         ndk{
